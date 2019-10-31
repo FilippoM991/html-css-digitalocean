@@ -261,9 +261,9 @@ a:hover {
 
 }
 #design_for_developers {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     padding-top: 60px;
-    height: 930px;
+    color: #031b4e;
     background-color: #F3F5F9;
 }
 #design_for_developers #build_more {
@@ -278,7 +278,7 @@ a:hover {
     height: auto;
 
 }
-#design_for_developers i {
+.freccia {
     font-size: 40px;
     margin: 0 20px;
 }
@@ -287,7 +287,136 @@ a:hover {
     margin: 50px auto 30px;
     max-width: 70%;
     opacity: 0.7;
+}
+.fa-circle {
+    color: #0069FF;
+    font-size: 10px;
+    margin: 5px;
+}
+#built_for_business {
+    height: 600px;
+    padding:80px 0;
+    color: #031b4e;
+}
+#built_for_business h1 {
+    margin-bottom: 60px;
+}
+#built_for_business h3 {
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 15px;
 
+}
+#built_for_business p  {
+    font-size: 16px;
+    opacity:0.7;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#built_for_business a {
+    font-size: 16px;
+    font-weight: bold;
+}
+#built_for_business a:hover {
+    color: #337ABE;
+}
+#service_your_customers {
+    padding: 100px 0;
+    background-image: url(https://image.freepik.com/vettori-gratuito/mappa-del-mondo-blu-disegnata-digitalmente_8559-144.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#service_your_customers h1 {
+    margin: 0 auto 80px;
+    max-width: 70%;
+    font-size: 40px;
+
+}
+#service_your_customers table {
+    width: 100%;
+}
+#service_your_customers table a {
+    color: #E9C312;
+    font-weight: bold;
+}
+#service_your_customers table a:hover {
+    color: #1CEA2F;
+}
+#service_your_customers table tr td  {
+    padding: 11px 10px 10px;
+}
+#service_your_customers table tr td:nth-child(2) {
+    opacity: 0.7;
+}
+#service_your_customers table tr:not(:last-of-type) {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+
+}
+#development_teams {
+    background-color: #F3F5F9;
+    color: #031b4e;
+    padding: 100px 0;
+}
+#development_teams p {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 30px auto 0;
+    opacity:0.7;
+}
+#development_teams #teams {
+    text-decoration: underline;
+    color: #005FE6;
+}
+#block_white_center {
+    height: 360px;
+    background-color: #fff;
+    border: 1px solid #e5e8ed;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#block_white_center img {
+    width: 180px;
+
+}
+#block_white_center p {
+    font-size: 22px;
+    opacity:0.6;
+    margin-bottom: 20px;
+}
+#block_white_center span {
+    font-size: 15px;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#block_white_center small {
+    margin-bottom:18px;
+    display: inline-block;
+    opacity: 0.6;
+}
+#block_white_center a {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#block_white_center a:hover {
+    color: #337ABE;
+}
+#development_teams #freccia_sinistra {
+    position: absolute;
+    left: -65px;
+    top: 150px;
+}
+#development_teams #freccia_destra {
+    position: absolute;
+    right: -65px;
+    bottom: 165px;
 }
 @media screen and (min-width:1057) {
     #header-two {
@@ -350,10 +479,14 @@ a:hover {
         height: auto;
         padding-bottom: 70px;
     }
-    #design_for_developers i {
+    .freccia  {
         display: none;
     }
     #design_for_developers img {
         max-width: 100%;
         margin-top: 30px;
+    }
+    #built_for_business {
+        height: auto;
+    }
 }

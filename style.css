@@ -411,12 +411,14 @@ a:hover {
 #development_teams #freccia_sinistra {
     position: absolute;
     left: -65px;
-    top: 150px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 #development_teams #freccia_destra {
     position: absolute;
     right: -65px;
-    bottom: 165px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 @media screen and (min-width:1057) {
     #header-two {

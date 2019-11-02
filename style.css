@@ -420,6 +420,71 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
 }
+#get_starder_now {
+    height: 245px;
+    padding: 64px 0;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#get_starder_now h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#get_starder_now a {
+    background-color: white;
+    color: #056CFF;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+#get_starder_now a:hover {
+    opacity:0.8;
+}
+footer {
+    height: 730px;
+    padding:90px 0;
+    background-color: #010e28;
+}
+footer ul li:first-child {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+footer ul li {
+    margin-bottom: 6px;
+}
+footer ul li a {
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+footer ul li a:hover {
+    color:white;
+}
+footer .container-fluid {
+    margin-top: 50px;
+    padding-top: 32px;
+    border-top: 1px solid #343E53;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+footer img {
+    height: 60px;
+}
+footer .container-fluid p {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 15px;
+    color: hsla(0,0%,100%,.5);
+}
+footer .fab {
+    font-size: 20px;
+    margin: 15px 5px; 0 0
+}
 @media screen and (min-width:1057) {
     #header-two {
         display:none;
@@ -458,7 +523,26 @@ a:hover {
         padding-bottom: 80px;
     }
 }
+@media screen and (max-width:991px) {
+    footer {
+        height: auto;
+    }
+    footer .container {
+        margin-left: 0px;
+    }
+    footer ul li:last-child {
+        margin-bottom: 35px;
+    }
+    footer .container-fluid {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    footer .fab {
+        font-size: 20px;
+        margin: 50px 5px; 0 0
+    }
 
+}
 @media screen and (max-width: 767px) {
     #my_jumbo {
         height: auto;
@@ -472,6 +556,7 @@ a:hover {
     #innovative_business {
         height: auto;
         padding:0 20px;
+        padding: 64px 0;
     }
     #innovative_business img {
         max-width:100%;
@@ -481,6 +566,10 @@ a:hover {
         height: auto;
         padding-bottom: 70px;
     }
+    #deploy_scale #our_opt {
+        max-width: 100%;
+    }
+    
     .freccia  {
         display: none;
     }
@@ -490,5 +579,10 @@ a:hover {
     }
     #built_for_business {
         height: auto;
+    }
+}
+@media screen and (max-width:479px) {
+    .col-xxs-12 {
+        width: 100%;
     }
 }
